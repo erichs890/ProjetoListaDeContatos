@@ -1,0 +1,83 @@
+
+body{
+    background-color: rgb(224, 238, 238);
+    font-family: "Roboto Mono", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+h1{
+    text-align: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+    background-color: rgb(220, 180, 180);
+    padding: 20px;
+    border-radius: 20px;
+}
+#divFormulario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#form input{
+    border-radius: 8px;
+    background-color: transparent;
+    outline: none;
+}
+#form button{
+    font-size: 24px;
+    border-radius: 8px;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    color: rgb(17, 16, 16);
+    font-family: "Roboto Mono", monospace;
+    outline: none;
+    border: 2px solid white;
+    transition: 0.5s ease-in-out;
+}
+#form button:hover{
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.05);
+}
+.botoesDiv{
+    cursor: pointer;
+    background-color: rgb(170, 168, 168);
+    padding: 2px;
+    border-radius: 5px;
+    transition: ease 0.2s;
+}
+.botoesDiv:hover{
+    background-color: rgb(197, 197, 197);   
+    transform: scale(1.05);
+    
+}
+.divBotoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#contatos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.caixa{
+    background-color: rgb(76, 199, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 11px;
+    width: 250px;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+}
